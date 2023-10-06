@@ -1,3 +1,8 @@
-# Data-Structures-and-Algorithms
-This Repository will contain all my DSA notes and codes.
-Collaborators : Anusheel Soni and P Ramesh
+# Basics for Data Structures and Algorithms
+This branch contains all the basic prerequisite skills required for starting your DSA journey.
+
+Creators:
+    - P Ramesh
+
+Collaborators:
+    - Anusheel Soni
