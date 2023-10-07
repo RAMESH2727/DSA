@@ -2,7 +2,7 @@
 *
 !*/
 !*.*
-.swp
-.exe
-.json
+*.swp
+*.exe
+*.json
 .vscode
