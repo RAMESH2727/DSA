@@ -26,7 +26,7 @@ int main()
 
     // Printing values
     cout << "Geek1: " << G1.Geek1 << endl;
-    cout << "Geek2 : " << G1.Geek2 << endl;
+    cout << "Geek2: " << G1.Geek2 << endl;
 
     /*
     Here we notice that Geek1 is replaced by ASCII value of Geek2,
