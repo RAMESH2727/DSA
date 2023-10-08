@@ -24,29 +24,31 @@ int main()
     // -------------------- Creating a Singly Linked List --------------------
     // 1. Declaring New Nodes
     struct node *Head = NULL;
-    struct node *e1;
+    struct node e1;
     struct node *e2;
     struct node *e3;
     struct node *e4;
 
     // 2. Allocating Memory to Nodes
-    e1 = (struct node *)malloc(sizeof(struct node));
+    // e1 = (struct node *)malloc(sizeof(struct node));
     e2 = (struct node *)malloc(sizeof(struct node));
     e3 = (struct node *)malloc(sizeof(struct node));
     e4 = (struct node *)malloc(sizeof(struct node));
 
     // 3. Initializing Data in Nodes
-    e1->data = 5;
+    // e1->data = 5;
+    e1.data = 5;
     e2->data = 10;
     e3->data = 15;
     e4->data = 20;
 
     // 4. Connecting Nodes Together
-    e1->Next = e2;
+    // e1->Next = e2;
+    e1.Next = e2;
     e2->Next = e3;
     e3->Next = e4;
     e4->Next = NULL;
-    Head = e1;
+    Head = &e1;
 
     // Printing Linked List
     printLL(Head);

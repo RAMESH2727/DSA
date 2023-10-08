@@ -63,7 +63,7 @@ int main()
     newNode = (struct node *)malloc(sizeof(struct node));
 
     // Initializing searchData
-    int searchData = 11;
+    int searchData = 15;
 
     // Creating pointer to traverse
     struct node *point;

@@ -16,10 +16,13 @@ void printLL(struct node *p)
     {
         if (p->BLink != NULL)
             printf("BLink data: %d \n", p->BLink->data);
+
         printf("data: %d \n", p->data);
+
         if (p->FLink != NULL)
             printf("FLink data: %d \n", p->FLink->data);
         printf("\n");
+
         p = p->FLink;
     }
     return;
@@ -32,20 +35,25 @@ int main()
     struct node *Head = NULL;
     struct node *e1;
     struct node *e2;
+    struct node *e3;
 
     // 2. Allocating Memory to Nodes
     e1 = (struct node *)malloc(sizeof(struct node));
     e2 = (struct node *)malloc(sizeof(struct node));
+    e3 = (struct node *)malloc(sizeof(struct node));
 
     // 3. Initializing Data in Nodes
     e1->data = 5;
     e2->data = 10;
+    e3->data = 15;
 
     // 4. Connecting Nodes FLink Together
     e1->FLink = e2;
-    e2->FLink = NULL;
+    e2->FLink = e3;
+    e3->FLink = NULL;
 
     // 5. Connecting Nodes BLink Together
+    e3->BLink = e2;
     e2->BLink = e1;
     e1->BLink = NULL;
 
