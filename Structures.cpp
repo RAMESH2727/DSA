@@ -1,11 +1,9 @@
-// Structure and Unions
-// C++ program to demonstrate the
-// making of structure
+/*
+Structure is a user-defined data type. Structures are used to 
+combine various heterogeneous data types in a single data structure.
+*/
 #include <bits/stdc++.h>
 using namespace std;
-
-// The structure is a user-defined data type
-// Structures are used to combine heterogeneous data types.
 
 // Define structure
 struct GFG
@@ -16,10 +14,10 @@ struct GFG
 };
 
 // Driver Code
-// main code
 int main()
 {
-	// When we declare a variable of the structure we need to write the keyword “struct" in C language but for C++ the keyword is not mandatory
+	// When we declare a variable of the structure we need to write the 
+	// keyword “struct"in C language but for C++ the keyword is not mandatory
 
 	// Declaring a Structure
 	struct GFG Geek;
