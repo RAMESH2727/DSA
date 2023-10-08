@@ -3,6 +3,6 @@
 !*/
 !*.*
 *.swp
-
-*.exe*.json
+*.exe
+*.json
 .vscode
